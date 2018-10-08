@@ -1,8 +1,9 @@
-pipeline {
-    stages {
+pipeline { 
+    agent any  
+    stages { 
         stage('Build') { 
-            steps {
-                echo "Pipeline..........."
+            steps { 
+               echo 'This is a minimal pipeline.' 
             }
         }
     }
